@@ -22,6 +22,17 @@
         
         <h2 class="view">Please enjoy <a href="experiments.html">this</a> app.</h2>
        
+       <script>
+  
+        var time=setInterval(function(){myTimer()},1000);
+
+        function myTimer()
+          {
+            var d=new Date();
+            var t=d.toLocaleTimeString();
+            document.getElementById("demo").innerHTML=t;
+          }
+      </script>
 
         <p class="view"><a href="https://github.com/chromelobster">View My GitHub Profile</a></p>
 
