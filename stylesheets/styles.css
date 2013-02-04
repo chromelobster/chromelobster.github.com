@@ -6,7 +6,10 @@ body {
   color:#777;
   font-weight:300;
 }
-
+body2 {
+ background-color: #C0C0C0; 
+}
+}
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
